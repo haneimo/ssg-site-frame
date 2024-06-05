@@ -2,7 +2,7 @@
   "name": "ssg-site",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
